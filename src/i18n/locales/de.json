@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "patients": "Für Patienten",
+    "doctors": "Für Ärzte",
+    "ambulance": "Notfall",
+    "about": "Über uns",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "hero": {
+    "title": "Globale Gesundheitsversorgung in Reichweite",
+    "subtitle": "Patienten mit verifizierten Ärzten weltweit verbinden. Symptome melden, KI-gestützte Triage erhalten und Notfallversorgung in über 50 Sprachen zugreifen.",
+    "patientCta": "Gesundheitsbewertung Starten",
+    "doctorCta": "Als Arzt Beitreten",
+    "emergencyCta": "Notfalldienste"
+  }
+}

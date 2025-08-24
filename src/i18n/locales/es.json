@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "patients": "Para Pacientes",
+    "doctors": "Para Médicos",
+    "ambulance": "Emergencia",
+    "about": "Acerca de",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse"
+  },
+  "hero": {
+    "title": "Atención Médica Global al Alcance de sus Manos",
+    "subtitle": "Conectando pacientes con médicos verificados en todo el mundo. Reporte síntomas, obtenga triaje con IA y acceda a atención de emergencia en más de 50 idiomas.",
+    "patientCta": "Iniciar Evaluación de Salud",
+    "doctorCta": "Unirse como Médico",
+    "emergencyCta": "Servicios de Emergencia"
+  },
+  "features": {
+    "ai_triage": "Triaje con IA",
+    "ai_triage_desc": "Obtenga evaluación instantánea de síntomas con nuestro sistema de IA avanzado",
+    "verified_doctors": "Médicos Verificados",
+    "verified_doctors_desc": "Conéctese con profesionales médicos verificados por hospitales",
+    "emergency_care": "Atención de Emergencia",
+    "emergency_care_desc": "Reserva de ambulancia 24/7 con seguimiento en tiempo real",
+    "multilingual": "Más de 50 Idiomas",
+    "multilingual_desc": "Acceso a atención médica en su idioma nativo",
+    "secure_records": "Registros Seguros",
+    "secure_records_desc": "Registros médicos asegurados con blockchain con total privacidad",
+    "instant_reports": "Reportes Instantáneos",
+    "instant_reports_desc": "Genere reportes de salud completos con fotos"
+  },
+  "patient": {
+    "assessment_title": "Evaluación de Salud",
+    "symptoms_label": "Describa sus síntomas",
+    "symptoms_placeholder": "Por favor describa lo que está experimentando...",
+    "severity_label": "¿Cómo calificaría su dolor/malestar?",
+    "duration_label": "¿Cuánto tiempo ha tenido estos síntomas?",
+    "photo_label": "Subir una foto (opcional)",
+    "emergency_warning": "Si esto es una emergencia que amenaza la vida, llame a los servicios de emergencia locales inmediatamente",
+    "submit_assessment": "Enviar Evaluación",
+    "triage_results": "Resultados de la Evaluación"
+  },
+  "doctor": {
+    "registration_title": "Registro de Médico",
+    "personal_info": "Información Personal",
+    "professional_info": "Información Profesional",
+    "documents": "Documentos Requeridos",
+    "license_number": "Número de Licencia Médica",
+    "specialization": "Especialización",
+    "hospital_affiliation": "Afiliación Hospitalaria",
+    "upload_license": "Subir Licencia Médica",
+    "upload_id": "Subir ID Gubernamental",
+    "upload_hospital_letter": "Subir Carta de Confirmación del Hospital",
+    "documents_required": "Todos los documentos deben ser subidos para completar el registro",
+    "submit_registration": "Enviar Registro",
+    "verification_pending": "Verificación Pendiente",
+    "verification_approved": "Verificación Aprobada",
+    "verification_rejected": "Verificación Rechazada"
+  },
+  "ambulance": {
+    "booking_title": "Ambulancia de Emergencia",
+    "location_sharing": "Comparta su ubicación para la respuesta más rápida",
+    "emergency_type": "Tipo de Emergencia",
+    "severity_critical": "Crítico - Amenaza la vida",
+    "severity_urgent": "Urgente - Necesita atención inmediata",
+    "severity_moderate": "Moderado - Puede esperar brevemente",
+    "request_ambulance": "Solicitar Ambulancia",
+    "ambulance_dispatched": "Ambulancia Despachada",
+    "estimated_arrival": "Llegada Estimada",
+    "track_ambulance": "Rastrear Ambulancia"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "upload": "Subir",
+    "download": "Descargar",
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Início",
+    "patients": "Para Pacientes",
+    "doctors": "Para Médicos",
+    "ambulance": "Emergência",
+    "about": "Sobre",
+    "login": "Entrar",
+    "register": "Registrar"
+  },
+  "hero": {
+    "title": "Cuidados de Saúde Globais ao Seu Alcance",
+    "subtitle": "Conectando pacientes com médicos verificados mundialmente. Relate sintomas, obtenha triagem com IA e acesse cuidados de emergência em mais de 50 idiomas.",
+    "patientCta": "Iniciar Avaliação de Saúde",
+    "doctorCta": "Junte-se como Médico",
+    "emergencyCta": "Serviços de Emergência"
+  }
+}

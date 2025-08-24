@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "patients": "For Patients",
+    "doctors": "For Doctors",
+    "ambulance": "Emergency",
+    "about": "About",
+    "login": "Login",
+    "register": "Register"
+  },
+  "hero": {
+    "title": "Global Healthcare at Your Fingertips",
+    "subtitle": "Connecting patients with verified doctors worldwide. Report symptoms, get AI-powered triage, and access emergency care in 50+ languages.",
+    "patientCta": "Start Health Assessment",
+    "doctorCta": "Join as Doctor",
+    "emergencyCta": "Emergency Services"
+  },
+  "features": {
+    "ai_triage": "AI-Powered Triage",
+    "ai_triage_desc": "Get instant symptom assessment with our advanced AI system",
+    "verified_doctors": "Verified Doctors",
+    "verified_doctors_desc": "Connect with hospital-verified medical professionals",
+    "emergency_care": "Emergency Care",
+    "emergency_care_desc": "24/7 ambulance booking with real-time tracking",
+    "multilingual": "50+ Languages",
+    "multilingual_desc": "Healthcare access in your native language",
+    "secure_records": "Secure Records",
+    "secure_records_desc": "Blockchain-secured medical records with full privacy",
+    "instant_reports": "Instant Reports",
+    "instant_reports_desc": "Generate comprehensive health reports with photos"
+  },
+  "patient": {
+    "assessment_title": "Health Assessment",
+    "symptoms_label": "Describe your symptoms",
+    "symptoms_placeholder": "Please describe what you're experiencing...",
+    "severity_label": "How would you rate your pain/discomfort?",
+    "duration_label": "How long have you had these symptoms?",
+    "photo_label": "Upload a photo (optional)",
+    "emergency_warning": "If this is a life-threatening emergency, call local emergency services immediately",
+    "submit_assessment": "Submit Assessment",
+    "triage_results": "Assessment Results"
+  },
+  "doctor": {
+    "registration_title": "Doctor Registration",
+    "personal_info": "Personal Information",
+    "professional_info": "Professional Information",
+    "documents": "Required Documents",
+    "license_number": "Medical License Number",
+    "specialization": "Specialization",
+    "hospital_affiliation": "Hospital Affiliation",
+    "upload_license": "Upload Medical License",
+    "upload_id": "Upload Government ID",
+    "upload_hospital_letter": "Upload Hospital Confirmation Letter",
+    "documents_required": "All documents must be uploaded to complete registration",
+    "submit_registration": "Submit Registration",
+    "verification_pending": "Verification Pending",
+    "verification_approved": "Verification Approved",
+    "verification_rejected": "Verification Rejected"
+  },
+  "ambulance": {
+    "booking_title": "Emergency Ambulance",
+    "location_sharing": "Share your location for fastest response",
+    "emergency_type": "Type of Emergency",
+    "severity_critical": "Critical - Life threatening",
+    "severity_urgent": "Urgent - Needs immediate care",
+    "severity_moderate": "Moderate - Can wait briefly",
+    "request_ambulance": "Request Ambulance",
+    "ambulance_dispatched": "Ambulance Dispatched",
+    "estimated_arrival": "Estimated Arrival",
+    "track_ambulance": "Track Ambulance"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "next": "Next",
+    "previous": "Previous",
+    "upload": "Upload",
+    "download": "Download",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

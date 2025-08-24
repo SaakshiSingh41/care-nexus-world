@@ -2,39 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* CareNexus Global Healthcare Portal Design System
+   Medical-grade design with trust, accessibility, and global reach in mind.
+   All colors MUST be HSL for proper theming.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base Healthcare Color Palette */
+    --background: 210 40% 98%;
+    --foreground: 215 28% 17%;
 
+    /* Card System */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 28% 17%;
 
+    /* Interactive Elements */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 28% 17%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Medical Blue - Trust & Reliability */
+    --primary: 210 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 85% 40%;
+    --primary-light: 210 85% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary Medical Teal - Healing & Growth */
+    --secondary: 175 65% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 175 65% 45%;
+    --secondary-light: 175 65% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Emergency Red - Critical Care */
+    --emergency: 0 85% 60%;
+    --emergency-foreground: 0 0% 100%;
+    --emergency-hover: 0 85% 55%;
+    --emergency-light: 0 85% 95%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Success Green - Health & Wellness */
+    --success: 145 65% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-hover: 145 65% 40%;
+    --success-light: 145 65% 95%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Warning Amber - Caution */
+    --warning: 45 90% 55%;
+    --warning-foreground: 215 28% 17%;
+    --warning-hover: 45 90% 50%;
+    --warning-light: 45 90% 95%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Neutral System */
+    --muted: 210 30% 96%;
+    --muted-foreground: 215 15% 55%;
+    --accent: 210 30% 94%;
+    --accent-foreground: 215 28% 17%;
+
+    /* Legacy Support */
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 210 25% 88%;
+    --input: 210 25% 88%;
+    --ring: 210 85% 45%;
 
     --radius: 0.5rem;
 
@@ -56,33 +86,62 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark Mode Healthcare Palette */
+    --background: 215 30% 8%;
+    --foreground: 210 30% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    /* Dark Cards */
+    --card: 215 25% 12%;
+    --card-foreground: 210 30% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    /* Dark Interactive */
+    --popover: 215 25% 12%;
+    --popover-foreground: 210 30% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    /* Dark Primary - Brighter Medical Blue */
+    --primary: 210 85% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 85% 65%;
+    --primary-light: 210 85% 15%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    /* Dark Secondary - Adjusted Teal */
+    --secondary: 175 65% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 175 65% 60%;
+    --secondary-light: 175 65% 15%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    /* Dark Emergency - Softer Red */
+    --emergency: 0 85% 65%;
+    --emergency-foreground: 0 0% 100%;
+    --emergency-hover: 0 85% 70%;
+    --emergency-light: 0 85% 15%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    /* Dark Success - Brighter Green */
+    --success: 145 65% 55%;
+    --success-foreground: 0 0% 100%;
+    --success-hover: 145 65% 60%;
+    --success-light: 145 65% 15%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    /* Dark Warning - Adjusted Amber */
+    --warning: 45 90% 65%;
+    --warning-foreground: 215 30% 8%;
+    --warning-hover: 45 90% 70%;
+    --warning-light: 45 90% 15%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    /* Dark Neutrals */
+    --muted: 215 20% 15%;
+    --muted-foreground: 215 15% 65%;
+    --accent: 215 20% 18%;
+    --accent-foreground: 210 30% 95%;
+
+    /* Dark Legacy */
+    --destructive: 0 85% 65%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Dark Borders & Inputs */
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 210 85% 60%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -101,5 +160,56 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  }
+
+  /* Healthcare-specific animations */
+  .pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Medical gradient backgrounds */
+  .bg-medical-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+  }
+
+  .bg-hero-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary-light)) 0%, hsl(var(--background)) 50%, hsl(var(--secondary-light)) 100%);
+  }
+
+  /* Emergency pulse animation */
+  .emergency-pulse {
+    animation: emergencyPulse 2s infinite;
+  }
+
+  @keyframes emergencyPulse {
+    0%, 100% { 
+      background-color: hsl(var(--emergency));
+      box-shadow: 0 0 0 0 hsla(var(--emergency), 0.7);
+    }
+    50% { 
+      background-color: hsl(var(--emergency-hover));
+      box-shadow: 0 0 0 10px hsla(var(--emergency), 0);
+    }
+  }
+
+  /* Success checkmark animation */
+  .success-checkmark {
+    animation: successPop 0.3s ease-in-out;
+  }
+
+  @keyframes successPop {
+    0% { transform: scale(0.8); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
   }
 }

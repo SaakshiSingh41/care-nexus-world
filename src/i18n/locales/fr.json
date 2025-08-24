@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "patients": "Pour les Patients",
+    "doctors": "Pour les Médecins",
+    "ambulance": "Urgence",
+    "about": "À propos",
+    "login": "Se connecter",
+    "register": "S'inscrire"
+  },
+  "hero": {
+    "title": "Soins de Santé Mondiaux à Portée de Main",
+    "subtitle": "Connecter les patients avec des médecins vérifiés dans le monde entier. Signaler les symptômes, obtenir un triage alimenté par l'IA et accéder aux soins d'urgence en plus de 50 langues.",
+    "patientCta": "Commencer l'Évaluation de Santé",
+    "doctorCta": "Rejoindre en tant que Médecin",
+    "emergencyCta": "Services d'Urgence"
+  }
+}

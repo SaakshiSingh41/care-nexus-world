@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "首页",
+    "patients": "患者服务",
+    "doctors": "医生服务",
+    "ambulance": "紧急服务",
+    "about": "关于我们",
+    "login": "登录",
+    "register": "注册"
+  },
+  "hero": {
+    "title": "全球医疗服务触手可及",
+    "subtitle": "连接患者与全球认证医生。报告症状，获得AI智能分诊，享受50多种语言的紧急医疗服务。",
+    "patientCta": "开始健康评估",
+    "doctorCta": "加入医生团队",
+    "emergencyCta": "紧急服务"
+  }
+}
